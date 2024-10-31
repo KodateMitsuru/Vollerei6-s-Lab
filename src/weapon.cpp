@@ -31,5 +31,5 @@ void Weapon::Load(const std::string& characterName, nlohmann::json& archive)
 
 void Weapon::getInfo()
 {
-	std::cout << std::format("ÎäÆ÷¹¥»÷:{0}, ±©»÷:{1}, Á¬»÷:{2}, ÎüÑª:{3}\n", ATK, Crit, combo, suck);
+	std::cout << std::format("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:{0}, ï¿½ï¿½ï¿½ï¿½:{1}, ï¿½ï¿½ï¿½ï¿½:{2}, ï¿½ï¿½Ñª:{3}\n", ATK, Crit, combo, suck);
 }

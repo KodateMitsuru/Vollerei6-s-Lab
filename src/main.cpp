@@ -25,10 +25,9 @@ int main()
         cout<<"欢迎来到绿神话-吗喽\n";
 		cout<<"请选择你要进入的页面\n";
 		cout<<"输入1：进入游戏\n";
-		//cout<<"输入2：查看说明"<<endl;
         cout<<"输入2：查看角色\n";
         cout<<"输入3：存档退出\n";
-        cout << "输入4：获得武器\n";
+        cout<<"输入4：获得武器\n";
 		cin>>status;
         switch(status){
         case 1:play(Player); break;
